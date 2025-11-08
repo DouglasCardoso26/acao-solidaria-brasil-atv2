@@ -7,23 +7,26 @@ O projeto demonstra domínio de **layouts modernos**, **sistemas de design** e *
 ---
 
 ## 🧩 Estrutura do Projeto
+
+```bash
 AcaoSolidaria_ONG_Atividade2/
 │
-├── index.html → Página inicial com apresentação e seções principais
-├── projetos.html → Galeria de projetos e frentes de atuação
-├── cadastro.html → Formulário de voluntariado e doações
+├── index.html              → Página inicial com apresentação e seções principais
+├── projetos.html           → Galeria de projetos e frentes de atuação
+├── cadastro.html           → Formulário de voluntariado e doações
 │
 ├── css/
-│ ├── design-system.css → Variáveis de cores, espaçamentos e tipografia (Design System)
-│ └── style.css → Estilos gerais + media queries de responsividade
+│   ├── design-system.css   → Variáveis de cores, espaçamentos e tipografia (Design System)
+│   └── style.css           → Estilos gerais + media queries de responsividade
 │
 ├── js/
-│ ├── menu.js → Controle do menu hambúrguer e submenu acessível
-│ ├── form.js → Feedback visual no envio do formulário
-│ └── masks.js → Máscaras de CPF, CEP e telefone
+│   ├── menu.js             → Controle do menu hambúrguer e submenu acessível
+│   ├── form.js             → Feedback visual no envio do formulário
+│   └── masks.js            → Máscaras de CPF, CEP e telefone
 │
 └── assets/
-└── media/ → Imagens ilustrativas (capa e projetos)
+    └── media/              → Imagens ilustrativas (capa e projetos)
+
 
 ---
 
