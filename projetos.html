@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ação Solidária Brasil</title>
+<meta name="description" content="ONG focada em Segurança Alimentar, Educação e Inclusão Digital.">
+<link rel="stylesheet" href="css/style.css">
+<script defer src="js/masks.js"></script>
+
+  <link rel="stylesheet" href="css/design-system.css">
+
+  
+  <style>
+    
+    .grid-projetos {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      flex-wrap: wrap;
+      gap: 40px;
+      text-align: center;
+    }
+    .grid-projetos figure {
+      margin: 0;
+      flex: 1 1 280px;
+      max-width: 280px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-end;
+    }
+    .grid-projetos img {
+      width: 100%;
+      max-width: 280px;
+      height: auto;
+      display: block;
+    }
+    .grid-projetos figcaption {
+      margin-top: 8px;
+      font-weight: 600;
+      text-align: center;
+      color: #003366;
+    }
+  </style>
+
+
+</head>
+<body>
+<header class="site-header header">
+  <div class="container nav" class="container">
+    <h1 class="logo"><a href="index.html" aria-label="Ir para a página inicial">Ação Solidária Brasil</a></h1>
+    <nav aria-label="Navegação principal">
+      <ul class="menu menu">
+        <li><a href="index.html">Início</a></li>
+        <li class="dropdown"><a href="#">Projetos</a><div class="submenu"><a href="#">Segurança Alimentar</a><a href="#">Educação e Oficinas</a><a href="#">Inclusão Digital</a></div></li>
+        <li><a href="cadastro.html">Cadastro</a></li>
+      </ul>
+    </nav>
+  </div>
+<button class="hamburger" aria-label="Abrir menu">☰</button>
+</header>
+
+
+
+<main class="container" id="conteudo">
+  <header class="header">
+    <h2>Projetos sociais</h2>
+    <p>Conheça nossas frentes de atuação e resultados recentes.</p>
+  </header>
+
+  <section id="galeria-projetos" aria-labelledby="tit-projetos">
+    <div class="grid-projetos">
+      <figure>
+        <img loading="lazy" src="assets/media/INDE_3.jpg" alt="Segurança Alimentar">
+        <figcaption>Segurança Alimentar</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="assets/media/INDE_2.jpg" alt="Educação e Oficinas">
+        <figcaption>Educação e Oficinas</figcaption>
+      </figure>
+      <figure>
+        <img loading="lazy" src="assets/media/INDE_1.jpg" alt="Inclusão Digital">
+        <figcaption>Inclusão Digital</figcaption>
+      </figure>
+    </div>
+  </section>
+</main>
+
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2025 Ação Solidária Brasil — Todos os direitos reservados.</p>
+  </div>
+</footer>
+
+  <script src="js/menu.js"></script>
+  <script src="js/form.js"></script>
+</body>
+</html>
